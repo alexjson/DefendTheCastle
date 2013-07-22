@@ -271,7 +271,7 @@ while 1:
 					soundOn = False
 			elif soundOn==False:
 				if soundOffBtn.rect.collidepoint(mouseX, mouseY):
-					Soundtrack.play()
+					Soundtrack.play(-1)
 					soundOn = True
 			
 			if menuActive:
